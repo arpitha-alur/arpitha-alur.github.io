@@ -1,128 +1,126 @@
 body {
   font-size: 14px;
-  color:#333;
-  background-color:#fff;
-  letter-spacing:1px;
+  color: #333;
+  background-color: #fff;
+  letter-spacing: 1px;
 }
 
 .overlay {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 3;
-	background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slides-navigation {
-	z-index: 6;
+  z-index: 6;
 }
 
 .slides-navigation .prev,
 .slides-navigation .next {
-	width: 47px;
-	height: 47px;
-	background-size: cover;
-	background-repeat: no-repeat;
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slides-navigation a.prev {
-	left: 20px;
-	background-image: url(../img/icons/back.png);
+  left: 20px;
+  background-image: url(../img/icons/back.png);
 }
 
 .slides-navigation a.next {
-	right: 20px;
-	background-image: url(../img/icons/next.png);
+  right: 20px;
+  background-image: url(../img/icons/next.png);
 }
 
 .titleMessage {
-	position: absolute;
-    width: 100%;
-    height: 250px;
-    top: 50%;
-    z-index: 5;
-    text-align: center;
-    margin-top: -125px;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  margin-top: -125px;
 }
 
 .titleMessage .heading p {
-	color: #fff;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
-    font-weight: 300;
-    letter-spacing: 5px;
+  color: #fff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+  letter-spacing: 5px;
 }
 
 .titleMessage .heading .main {
-	font-size: 50px;
+  font-size: 70px;
 }
 
 .titleMessage .heading .sub {
-	font-size: 23px;
+  font-size: 23px;
 }
 
 .section {
-
   padding: 100px 0;
 }
 
 .aboutImage {
-    max-width: 100%; 
+  max-width: 100%;
 }
 
 .skillssection {
-  background-color:#e1b12c;
+  background-color: #e1b12c;
   color: #fff;
 }
 
 .skill {
-	 text-align: center;
-	 margin-left:10px;
+  text-align: center;
+  margin-left: 10px;
 }
 
 .chart {
-	position:relative;
-	width: 152px;
-	height: 152px;
-	display: inline-block;
-	text-align: center;
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
 }
 
 .chart canvas {
-	position: absolute;
-	left:0;
-	top:0;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .chart .percent {
-	color: #000;
-	line-height:152px;
-	display: imline-block;
-	font-size: 20px;
+  color: #000;
+  line-height: 152px;
+  display: imline-block;
+  font-size: 20px;
 }
 
 .chart .percent:after {
-	content: '%';
+  content: "%";
 }
 
 .skill .skillset {
-  font-family: 'monospace';
-	font-size: 20px;
-	color: #000;
+  font-family: "monospace";
+  font-size: 20px;
+  color: #000;
 }
 
-
 .contactButton {
-	color: #000;
-	padding:15px 20px;
-	display: inline-block;
-	margin-top: 20px;
-	border: 1px solid #000;
-	border-radius: 5px;
-	font-size: 20px;
+  color: #000;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 .contactButton:hover {
-	text-decoration: none;
-	color: #3B5998;
+  text-decoration: none;
+  color: #3b5998;
 }
 
 /*.contactimage {
@@ -132,196 +130,197 @@ body {
 }*/
 
 .contactSection h2 {
-	color:#000;
+  color: #000;
 }
 
 .filter a {
-	color: #76a5c4;
-	border: 1px solid #bdc3c7;
-	padding:10px 18px;
-	display:block;
+  color: #76a5c4;
+  border: 1px solid #bdc3c7;
+  padding: 10px 18px;
+  display: block;
 }
 
 .filter li {
-	display : inline-block;
+  display: inline-block;
   padding: 5px;
 }
 
 .filter .current {
-	background-color: #e1b12c;
-	border-color: #e1b12c;
-	color:#fff;
+  background-color: #e1b12c;
+  border-color: #e1b12c;
+  color: #fff;
 }
 
 .filter {
-	text-align: center;
-	width:100%;
+  text-align: center;
+  width: 100%;
 }
 
 .section .heading {
-	text-align: center;
-	padding-bottom: 40px;
-	width:100%;
-	
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
 }
 
 .items li {
-	display: inline-block;
-	padding:10px;
+  display: inline-block;
+  padding: 10px;
 }
 
 .itemsContainer {
-	width: 100%;
+  width: 100%;
 }
 
 .items li img {
-	width:100%;
-  -webkit-transition: all 0.2s linear,1s;
-	-moz-transition: all 0.2s linear,1s;
-	-o-transition: all 0.2s linear,1s;
-	-ms-transition: all 0.2s linear,1s;
-	-transition: all 0.2s linear,1s;	
+  width: 100%;
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 
 .items .item {
-	position: relative;
-	display:block;
-	overflow:hidden;
+  position: relative;
+  display: block;
+  overflow: hidden;
 }
 
 .items .icons {
-	position:absolute;
-	width:90px;
-	height:40px;
-	left:50%;
-	top:50%;
-	margin: -20px auto 0 -47px;
-	text-align:center;
-	z-index:3;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -20px auto 0 -47px;
+  text-align: center;
+  z-index: 3;
 }
 
 .items a {
-	width:40px;
-	height:40px;
-	background-color: dimgray;
-	position:relative;
-	display:inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: dimgray;
+  position: relative;
+  display: inline-block;
 
-	-webkit-transition: all 0.2s linear,0.2s;
-	-moz-transition: all 0.2s linear,0.2s;
-	-o-transition: all 0.2s linear,0.2s;
-	-ms-transition: all 0.2s linear,0.2s;
-	-transition: all 0.2s linear,0.2s;
-
+  -webkit-transition: all 0.2s linear, 0.2s;
+  -moz-transition: all 0.2s linear, 0.2s;
+  -o-transition: all 0.2s linear, 0.2s;
+  -ms-transition: all 0.2s linear, 0.2s;
+  -transition: all 0.2s linear, 0.2s;
 }
 
 .items .imageOverlay {
-	width:100%;
-	height:100%;
-	background-color:rgba(0, 0, 0, 0.5);
-	position: absolute;
-	left:0px;
-	top:0px;
-	opacity:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
 
-	-webkit-transition: all 0.2s linear,1s;
-	-moz-transition: all 0.2s linear,1s;
-	-o-transition: all 0.2s linear,1s;
-	-ms-transition: all 0.2s linear,1s;
-	-transition: all 0.2s linear,1s;
-
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+  -transition: all 0.2s linear, 1s;
 }
 
 .items .item:hover .imageOverlay {
-	opacity:1;
+  opacity: 1;
 }
 
 .items .openButton {
-	float : left;
-	left: -200px;
+  float: left;
+  left: -200px;
 }
 
 .items .projectLink {
-	 float: right;
-	 right:-200px;
+  float: right;
+  right: -200px;
 }
 
 .items .item:hover .openButton {
-	left:0px;
+  left: 0px;
 }
 
 .items .item:hover .projectLink {
-	right:0px;
+  right: 0px;
 }
 
 .items .item:hover img {
-
-	-webkit-transform: scale(1.05,1.05);
-	-moz-transform: scale(1.05,1.05);
-	-o-transform: scale(1.05,1.05);
-	-ms-transform: scale(1.05,1.05);
-	-transform: scale(1.05,1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -transform: scale(1.05, 1.05);
 }
 
 .items {
-	padding:0;
+  padding: 0;
 }
 
 .items .item {
-	position: relative; 
+  position: relative;
   max-width: 800px; /* Maximum width */
   margin: 0 auto; /* Center it */
 }
 
 .items .item .centered {
-	position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-	font-size: 25px;
-	color:#fff;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 800;
 }
 
 .copyrightSection {
-	background-color: #000;
-	color:#fff;
-	padding: 30px 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
 }
 
 .copyrightSection p {
-	margin: 0;
+  margin: 0;
 }
 
 #navigation {
-	background-color: #ffdd59;
-	padding: 20px 10px;
-	z-index: 100;
-	width: 100%;
+  background-color: #ffdd59;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
 }
 
 #navigation li {
-	padding:0 10px;
+  padding: 0 10px;
 }
 
 #navigation li a {
-	color: #fff;
+  color: #fff;
 }
 
-.navbar-brand , .navbar-brand:hover  {
-	color: #fff;
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
 }
 
+.nav-link {
+  font-size: 20px;
+}
 .navbar-toggler-icon {
-	background: url(../img/icons/menu1.png);
-	background-size: 100%;
+  background: url(../img/icons/menu1.png);
+  background-size: 100%;
 }
 
 .fixedNav #navigation {
-	 position: fixed;
-	 top:0;
+  position: fixed;
+  top: 0;
 }
 
 #portfolio {
-	background-image: url(../img/img13.jpg);
-	background-size: cover;
+  background-image: url(../img/img13.jpg);
+  background-size: cover;
 }
